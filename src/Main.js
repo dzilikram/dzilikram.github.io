@@ -2,6 +2,8 @@ import React from "react";
 import About from "./About";
 import Resume from "./Resume";
 import Skills from "./Skills";
+import Projects from "./Projects";
+import Certificate from "./Certificate";
 
 function Item(props) {
   return (
@@ -24,12 +26,12 @@ export default function Main() {
       <Item title="Skills">
         <Skills />
       </Item>
-      {/* <Item title="Projects" outerClass="bg-light">
-        tes
+      <Item title="Projects" outerClass="bg-light">
+        <Projects />
       </Item>
       <Item title="Certificate">
-        tes
-      </Item> */}
+        <Certificate />
+      </Item>
     </div>
   );
 }
