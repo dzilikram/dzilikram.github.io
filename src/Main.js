@@ -5,12 +5,20 @@ import Skills from "./Skills";
 import Projects from "./Projects";
 import Certificate from "./Certificate";
 
+import Fade from "react-reveal/Fade";
+
 function Item(props) {
   return (
-    <div className={"p-4 p-md-5 " + (props.outerClass ?? "")}>
-      <h1 className="h4 fw-semibold mb-3">{props.title}</h1>
-      <div>{props.children}</div>
-    </div>
+    <Fade bottom>
+      <div className={"p-4 p-md-5 " + (props.outerClass ?? "")}>
+        <Fade bottom>
+          <h1 className="h4 fw-semibold mb-3">{props.title}</h1>
+        </Fade>
+        <Fade bottom>
+          <div>{props.children}</div>
+        </Fade>
+      </div>
+    </Fade>
   );
 }
 

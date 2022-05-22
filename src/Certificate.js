@@ -4,19 +4,23 @@ import basicBackEndImage from "./certificate/sertifikat_basic_back_end.jpg";
 import basicWebImage from "./certificate/sertifikat_basic_web_programming.jpg";
 import skkniPwpImage from "./certificate/skkni_bpptik_2018_pwp.jpg";
 
+import Fade from "react-reveal/Fade";
+
 function Item(props) {
-  const { certificate } = props;
+  const { certificate, index } = props;
   return (
     <div className="col-sm-6 col-md-4 mb-3">
-      <div className="card border-0 shadow p-3 text-center h-100">
-        <img
-          src={certificate.imageUrl}
-          alt={certificate.name}
-          className="rounded mb-3 w-100"
-        />
-        <div className="small fw-semibold">{certificate.name}</div>
-        <div className="small text-secondary">{certificate.description}</div>
-      </div>
+      <Fade bottom delay={500 * index}>
+        <div className="card border-0 shadow p-3 text-center h-100">
+          <img
+            src={certificate.imageUrl}
+            alt={certificate.name}
+            className="rounded mb-3 w-100"
+          />
+          <div className="small fw-semibold">{certificate.name}</div>
+          <div className="small text-secondary">{certificate.description}</div>
+        </div>
+      </Fade>
     </div>
   );
 }
@@ -47,8 +51,8 @@ export default function Certificate() {
 
   return (
     <div className="row">
-      {listCertificate.map((data) => (
-        <Item certificate={data} />
+      {listCertificate.map((data, idx) => (
+        <Item certificate={data} index={idx} key={`certificate-${idx}`} />
       ))}
     </div>
   );

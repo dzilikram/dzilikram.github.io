@@ -5,7 +5,7 @@ function ListData(props) {
   return (
     <div className="d-flex align-items-center mb-2">
       <div className="fs-5 me-3">
-        <i class={props.iconClass}></i>
+        <i className={props.iconClass}></i>
       </div>
       <div style={{ fontSize: ".83em" }}>{props.value}</div>
     </div>
@@ -62,7 +62,9 @@ function App() {
         <ListData iconClass="bi bi-person" value={data.fullName} />
         <ListData
           iconClass="bi bi-calendar3"
-          value={`${moment(data.birthDate).format("MMMM D, YYYY")} (${moment(data.birthDate).fromNow(true)} old)`}
+          value={`${moment(data.birthDate).format("MMMM D, YYYY")} (${moment(
+            data.birthDate
+          ).fromNow(true)} old)`}
         />
         <ListData iconClass="bi bi-envelope" value={data.email} />
         <ListData iconClass="bi bi-phone" value={data.phoneNumber_} />
