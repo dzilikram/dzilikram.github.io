@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.17e7243d.css",
-    "main.js": "/static/js/main.30f6ab6e.js",
+    "main.js": "/static/js/main.1d4ad068.js",
     "static/media/weddInc.png": "/static/media/weddInc.02ff7670c246d5ce5111.png",
     "static/media/skkni_bpptik_2018_pwp.jpg": "/static/media/skkni_bpptik_2018_pwp.efe6e2a7371b35d97097.jpg",
     "static/media/bermakna.png": "/static/media/bermakna.cf4d9d8ba44960cdf463.png",
@@ -26,10 +26,10 @@
     "static/media/laravel.png": "/static/media/laravel.e2a03d55a6c4adf27cd9.png",
     "index.html": "/index.html",
     "main.17e7243d.css.map": "/static/css/main.17e7243d.css.map",
-    "main.30f6ab6e.js.map": "/static/js/main.30f6ab6e.js.map"
+    "main.1d4ad068.js.map": "/static/js/main.1d4ad068.js.map"
   },
   "entrypoints": [
     "static/css/main.17e7243d.css",
-    "static/js/main.30f6ab6e.js"
+    "static/js/main.1d4ad068.js"
   ]
 }
