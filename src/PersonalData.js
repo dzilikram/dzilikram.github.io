@@ -47,13 +47,26 @@ function App() {
           <small>{data.profession}</small>
         </div>
         <div className="mt-3">
-          <a href="facebook.com" target="_blank">
+          <a
+            href="https://facebook.com/dzil.ikram.3"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="bi bi-facebook"></i>
           </a>
-          <a href="facebook.com" target="_blank" className="mx-3">
+          <a
+            href="https://www.instagram.com/dzilikram99/"
+            target="_blank"
+            className="mx-3"
+            rel="noreferrer"
+          >
             <i className="bi bi-instagram"></i>
           </a>
-          <a href="facebook.com" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/mfdikramlubis/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="bi bi-linkedin"></i>
           </a>
         </div>
