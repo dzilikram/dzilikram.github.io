@@ -11,7 +11,7 @@ export default function Resume() {
             <li>
               <div className="fw-bold">UIN Syarif Hidayatullah Jakarta</div>
               <div>Informatics Engineering</div>
-              <div className="text-secondary">2017 - Present</div>
+              <div className="text-secondary">2017 - 2022</div>
             </li>
             <li>
               <div className="fw-bold">SMK Terpadu Al-Ittihad Cianjur</div>
@@ -49,8 +49,13 @@ export default function Resume() {
           <ul className="timeline">
             <li>
               <div className="fw-bold">Web Developer</div>
+              <div>Nusantara Beta Studio (Full Time)</div>
+              <div className="text-secondary">Jun 2022 - Present</div>
+            </li>
+            <li>
+              <div className="fw-bold">Web Developer</div>
               <div>Freelance</div>
-              <div className="text-secondary">Oct 2020 - Present</div>
+              <div className="text-secondary">Oct 2020 - 2022</div>
               <div className="small">
                 Working on various projects. Usually work as Fullstack Web
                 developer with PHP (Laravel, Codeigniter) and some projects as
