@@ -17,8 +17,6 @@ function App() {
     nickName: "Ikram Lubis",
     fullName: "Muhammad Fadhli Dzil Ikram Lubis",
     email: "dzilikram989@gmail.com",
-    phoneNumber: "+6285212461453",
-    phoneNumber_: "+62 852-1246-1453",
     address: "Sukabumi, West Java, Indonesia",
     birthDate: "1998-03-09",
     profession: "Web Developer",
@@ -80,7 +78,6 @@ function App() {
           ).fromNow(true)} old)`}
         />
         <ListData iconClass="bi bi-envelope" value={data.email} />
-        <ListData iconClass="bi bi-phone" value={data.phoneNumber_} />
         <ListData iconClass="bi bi-geo-alt" value={data.address} />
       </div>
     </div>
